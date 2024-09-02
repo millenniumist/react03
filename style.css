@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+
+#root {
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+}
+
+
+
+.img{
+    height: 120px;
+    border-radius: 50%;
+}
+
+.name {
+    font-weight: 600;
+}
+
+
+.stat-main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.stat-ctn {
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.stat {
+    font-weight: 700;
+}
+
+.stat-header {
+    color: gray
+}
